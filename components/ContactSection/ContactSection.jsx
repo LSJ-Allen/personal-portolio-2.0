@@ -7,25 +7,25 @@ import ContactItem from './ContactItem';
 
 const contactData = [
   {
-    icon: '/images/email-icon.png',
+    icon: './images/email-icon.png',
     title: 'Email',
     content: 'lsj.liu@mail.utoronto.ca',
     isLink: true
   },
   {
-    icon: '/images/phone-icon.png',
+    icon: './images/phone-icon.png',
     title: 'Phone',
     content: '+1 (514) 692-9575',
     isLink: true
   },
   {
-    icon: '/images/linkedin-icon.png',
+    icon: './images/linkedin-icon.png',
     title: 'LinkedIn',
     content: 'https://www.linkedin.com/in/shijia-liu123/',
     isLink: false
   },
   {
-    icon: '/images/github-icon.png',
+    icon: './images/github-icon.png',
     title: 'GitHub',
     content: 'https://github.com/LSJ-Allen',
     isLink: false
