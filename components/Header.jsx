@@ -26,7 +26,7 @@ const Header = () => (
         >
           <span className="self-stretch my-auto">Contact</span>
           <Image
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/ca5deba6d8bf6b17c6f4859a277c516a26649d06d3f9ab095b95ec835b756625?apiKey=141d7e56fdb34d3a91ae01910f65e12a&"
+            src="./images/downarrow-icon.png"
             alt=""
             width={24}
             height={24}

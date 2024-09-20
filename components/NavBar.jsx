@@ -30,7 +30,7 @@ const NavBar = () => {
           <div className="flex gap-2.5 items-start self-stretch my-auto whitespace-nowrap">
             <button onClick={handleContactClick}>Contact</button>
               <Image
-                src="/images/downarrow-icon.png"
+                src="./images/downarrow-icon.png"
                 alt=""
                 width={24}
                 height={24}

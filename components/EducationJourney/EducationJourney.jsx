@@ -11,7 +11,7 @@ const educationData = [
     degree: "Master of Science in Applied Computing",
     description:
       "I finally got to study what I am passionate about! I made exciting and incredibly smart friends, and we still hangout from time to time!",
-    imageSrc: "/images/uoft.jpg",
+    imageSrc: "./images/uoft.jpg",
     imageAlt: "University of Toronto campus",
   },
   {
@@ -20,7 +20,7 @@ const educationData = [
     degree: "Chemical Engineering, minor in Computer Science",
     description:
       "Montreal is beautiful in summer but miserable in winter. I had a disturbing amount of exams here :(, and I still have PTSD about exams in my dreams.",
-    imageSrc: "/images/mcgill.jpg",
+    imageSrc: "./images/mcgill.jpg",
     imageAlt: "McGill University campus",
   },
   {
@@ -29,7 +29,7 @@ const educationData = [
     degree: "",
     description:
       "As My first entry of Canada, Lambrick was a small school with fewer than 700 students. Everyone there was super friendly and the teachers cared for all students. I had an incredibly high school experience there!",
-    imageSrc: "/images/lambrick.jpg",
+    imageSrc: "./images/lambrick.jpg",
     imageAlt: "Lambrick Park Secondary School",
   },
 ];

@@ -20,7 +20,7 @@ function PersonalJourney() {
         <ContactButton />
       </section>
       <Image
-        src="/images/photo.JPG"
+        src="./images/photo.JPG"
         alt="Shijia's personal journey illustration"
         className="object-contain flex-1 shrink w-full aspect-[0.8] basis-36 min-w-[240px] max-md:max-w-full"
         width={500}

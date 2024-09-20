@@ -23,7 +23,7 @@ const ContactInfo = () => (
       <div className="flex flex-wrap flex-1 shrink gap-8 items-start w-full basis-0 min-w-[240px] max-md:max-w-full">
         <div className="flex relative flex-1 shrink gap-3 items-start py-2 basis-0 min-w-[240px] text-neutral-400">
           <Image
-            src="/images/email-icon.png"
+            src="./images/email-icon.png"
             alt=""
             width={36}
             height={36}
