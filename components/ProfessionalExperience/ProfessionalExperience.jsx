@@ -31,7 +31,7 @@ const experiences = [
 
 function ProfessionalExperience() {
   return (
-    <section className="flex flex-col justify-center items-center w-full max-md:max-w-full bg-zinc-800">
+    <section className="flex flex-col justify-center items-center w-full max-md:max-w-full bg-zinc-800 px-16 py-28 max-md:px-5 max-md:py-24">
       <div className="flex flex-col max-w-full w-[768px]">
         <header className="flex flex-col justify-center w-full text-neutral-400">
           <div className="flex flex-col w-full max-md:max-w-full">
