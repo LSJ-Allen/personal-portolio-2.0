@@ -33,13 +33,13 @@ const ContactInfo = () => (
             lsj.liu@mail.utoront.ca
           </div>
         </div>
-        <ContactItem src="/images/phone-icon.png" alt="Phone icon">
+        <ContactItem src="./images/phone-icon.png" alt="Phone icon">
           (514)-692-9575
         </ContactItem>
-        <ContactItem src="/images/linkedin-icon.png" alt="LinkedIn icon">
+        <ContactItem src="./images/linkedin-icon.png" alt="LinkedIn icon">
           LinkedIn
         </ContactItem>
-        <ContactItem src="/images/github-icon.png" alt="GitHub icon">
+        <ContactItem src="./images/github-icon.png" alt="GitHub icon">
           GitHub
         </ContactItem>
       </div>
