@@ -36,25 +36,26 @@ const educationData = [
 
 function EducationJourney() {
   return (
-    <section className="flex overflow-hidden flex-col px-16 py-28 bg-zinc-800 max-md:flex max-md:flex-col max-md:px-5 max-md:py-24">
-      <h1 className="flex flex-col self-center max-w-full text-5xl font-bold leading-tight text-center text-neutral-400 w-[768px] max-md:text-4xl">
-        My Education Journey
-      </h1>
-      <div className="flex flex-col mt-20 w-full max-md:mt-10 max-md:max-w-full">
-        {educationData.map((item, index) => (
-          <TimelineItem
-            key={index}
-            institution={item.institution}
-            period={item.period}
-            degree={item.degree}
-            description={item.description}
-            imageSrc={item.imageSrc}
-            imageAlt={item.imageAlt}
-            isReverse={index % 2 !== 0}
-          />
-        ))}
-      </div>
-    </section>
+      <section className="flex justify-center items-center overflow-hidden flex-col px-16 py-28 bg-zinc-800 max-md:flex max-md:flex-col max-md:px-5 max-md:py-24">
+        <h1 className="flex flex-col self-center max-w-full text-5xl font-bold leading-tight text-center text-neutral-400 w-[768px] max-md:text-4xl">
+          My Education Journey
+        </h1>
+        <div className="flex flex-col max-w-7xl mt-20 w-full max-md:mt-10 max-md:max-w-full">
+          {educationData.map((item, index) => (
+            <TimelineItem
+              key={index}
+              institution={item.institution}
+              period={item.period}
+              degree={item.degree}
+              description={item.description}
+              imageSrc={item.imageSrc}
+              imageAlt={item.imageAlt}
+              isReverse={index % 2 !== 0}
+            />
+          ))}
+        </div>
+      </section>
+    
   );
 }
 
