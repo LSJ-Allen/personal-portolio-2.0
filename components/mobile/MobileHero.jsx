@@ -19,7 +19,7 @@ const MobileHero = () => {
           </p>
         </div>
         <div className="flex gap-4 mt-6 max-w-full text-lg font-bold w-[156px]">
-          <button className="gap-2 self-stretch px-6 py-3 h-full bg-black rounded-2xl border border-black border-solid w-[156px]">
+          <button onClick={() => document.getElementById('contact-info').scrollIntoView({ behavior: 'smooth' })} className="gap-2 self-stretch px-6 py-3 h-full bg-black rounded-2xl border border-black border-solid w-[156px]">
             Contact Me
           </button>
         </div>

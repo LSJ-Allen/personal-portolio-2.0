@@ -5,7 +5,7 @@ import React from 'react';
 
 const SkillCard = ({ title, progress }) => {
   return (
-    <div className="flex overflow-hidden flex-col justify-center p-6 max-w-full border border-solid bg-neutral-900 border-neutral-800 h-[180px] w-[343px] max-md:px-5 rounded-xl">
+    <div className="flex overflow-hidden flex-col justify-center p-6 max-w-full border border-solid bg-neutral-900 border-neutral-800 h-[150px] w-[300px] max-md:px-5 rounded-xl">
       <div className="flex flex-col flex-1 justify-center items-center py-16 w-full">
         <div className="flex gap-4 items-center w-full text-4xl font-bold leading-tight whitespace-nowrap min-h-[54px] text-neutral-400">
           <div className="flex-1 shrink self-stretch my-auto w-full min-w-[240px] text-ellipsis">

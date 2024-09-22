@@ -61,12 +61,15 @@ function MobileAboutMe() {
           </p>
         </article>
       </section>
-      <section className="mt-8">
-        <h2 className="text-2xl font-bold mb-4">Contact</h2>
-        {contactItems.map((item, index) => (
-          <MobileContactItem key={index} icon={item.icon} text={item.text} link={item.link}/>
-        ))}
-      </section>
+      <div id="contact-info">
+        <section className="mt-8">
+          <h2 className="text-2xl font-bold mb-4">Contact</h2>
+          {contactItems.map((item, index) => (
+            <MobileContactItem key={index} icon={item.icon} text={item.text} link={item.link}/>
+          ))}
+        </section>
+      </div>
+
     </main>
   );
 }

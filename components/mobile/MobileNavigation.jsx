@@ -7,11 +7,21 @@ const MobileNavigation = () => {
   const [isContactOpen, setIsContactOpen] = useState(false);
 
   const menuItems = [
-    { label: "Home" },
-    { label: "Educations" },
-    { label: "Experiences" },
-    { label: "Projects" },
-    { label: "Skills" },
+    { label: "Home",
+      link: "/"
+     },
+    { label: "Educations",
+      link: "/educations"
+     },
+    { label: "Experiences",
+      link: "experiences"
+     },
+    { label: "Projects",
+      link: "/projects"
+     },
+    { label: "Skills",
+      link: "/skills"
+     },
   ];
 
   const contactItems = [
@@ -50,7 +60,9 @@ const MobileNavigation = () => {
         <ul className="flex overflow-hidden flex-col w-full">
           {menuItems.map((item, index) => (
             <li key={index} className="py-3 w-full text-lg">
-              {item.label}
+              <Link href={`${item.link}`}>
+                {item.label}
+              </Link>
             </li>
           ))}
           <li className="flex flex-col w-full">
