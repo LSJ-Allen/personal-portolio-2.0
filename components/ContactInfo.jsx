@@ -3,6 +3,7 @@
  */
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const ContactItem = ({ src, alt, children }) => (
   <div className="flex flex-1 shrink gap-3 items-center py-2 basis-0 min-w-[240px]">
@@ -36,12 +37,17 @@ const ContactInfo = () => (
         <ContactItem src="./images/phone-icon.png" alt="Phone icon">
           (514)-692-9575
         </ContactItem>
-        <ContactItem src="./images/linkedin-icon.png" alt="LinkedIn icon">
-          LinkedIn
-        </ContactItem>
-        <ContactItem src="./images/github-icon.png" alt="GitHub icon">
-          GitHub
-        </ContactItem>
+        <Link href="https://www.linkedin.com/in/shijia-liu123/">
+          <ContactItem src="./images/linkedin-icon.png" alt="LinkedIn icon">
+            LinkedIn
+          </ContactItem>
+        </Link>
+        <Link href="https://github.com/LSJ-Allen">
+          <ContactItem src="./images/github-icon.png" alt="GitHub icon">
+            GitHub
+          </ContactItem>
+        </Link>
+
       </div>
     </div>
   </section>

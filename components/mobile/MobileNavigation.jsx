@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const MobileNavigation = () => {
   const [isContactOpen, setIsContactOpen] = useState(false);
@@ -17,18 +18,22 @@ const MobileNavigation = () => {
     {
       icon: "./images/email-icon.png",
       text: "lsj.liu@mail.utoronto.ca",
+      link: "lsj.liu@mail.utoronto.ca"
     },
     {
       icon: "./images/phone-icon.png",
       text: "(514)-692-9575",
+      link: "(514)-692-9575"
     },
     {
       icon: "./images/linkedin-icon.png",
       text: "LinkedIn",
+      link: "https://www.linkedin.com/in/shijia-liu123/"
     },
     {
       icon: "./images/github-icon.png",
       text: "GitHub",
+      link: "https://github.com/LSJ-Allen"
     },
   ];
 
@@ -74,13 +79,16 @@ const MobileNavigation = () => {
                     key={index}
                     className="flex gap-3 items-start py-2 mt-2 w-full"
                   >
-                    <Image
-                      src={item.icon}
-                      alt=""
-                      width={24}
-                      height={24}
-                      className="object-contain shrink-0 w-6 aspect-square"
-                    />
+                    <Link rel="stylesheet" href={`${item.link}`}>
+                      <Image
+                        src={item.icon}
+                        alt=""
+                        width={24}
+                        height={24}
+                        className="object-contain shrink-0 w-6 aspect-square"
+                      />
+                    </Link>
+                    
                     <span className="flex-1 shrink min-w-[240px]">
                       {item.text}
                     </span>

@@ -9,18 +9,22 @@ const contactItems = [
   {
     icon: "./images/email-icon.png",
     text: "lsj.liu@mail.utoronto.ca",
+    link: "lsj.liu@mail.utoronto.ca"
   },
   {
     icon: "./images/phone-icon.png",
     text: "(514)-692-9575",
+    link: "(514)-692-9575"
   },
   {
     icon: "./images/linkedin-icon.png",
     text: "LinkedIn",
+    link: "https://www.linkedin.com/in/shijia-liu123/"
   },
   {
     icon: "./images/github-icon.png",
     text: "GitHub",
+    link: "https://github.com/LSJ-Allen"
   },
 ];
 
@@ -60,7 +64,7 @@ function MobileAboutMe() {
       <section className="mt-8">
         <h2 className="text-2xl font-bold mb-4">Contact</h2>
         {contactItems.map((item, index) => (
-          <MobileContactItem key={index} icon={item.icon} text={item.text} />
+          <MobileContactItem key={index} icon={item.icon} text={item.text} link={item.link}/>
         ))}
       </section>
     </main>

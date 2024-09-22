@@ -34,7 +34,7 @@ const NavBar = () => {
                 alt=""
                 width={24}
                 height={24}
-                className="object-contain shrink-0 self-stretch my-auto w-6 aspect-square"
+                className={`object-contain shrink-0 self-stretch my-auto w-6 aspect-square ${showContact ? "rotate-180" : ""}`}
               />
           </div>
         </nav>
