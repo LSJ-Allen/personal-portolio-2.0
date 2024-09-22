@@ -91,7 +91,7 @@ const MobileNavigation = () => {
                     key={index}
                     className="flex gap-3 items-start py-2 mt-2 w-full"
                   >
-                    <Link rel="stylesheet" href={`${item.link}`}>
+                    <Link className="flex gap-3 items-start py-2 mt-2 w-full" rel="stylesheet" href={`${item.link}`}>
                       <Image
                         src={item.icon}
                         alt=""
@@ -99,11 +99,12 @@ const MobileNavigation = () => {
                         height={24}
                         className="object-contain shrink-0 w-6 aspect-square"
                       />
+                      <span className="flex-1 shrink min-w-[240px]">
+                        {item.text}
+                      </span>
                     </Link>
                     
-                    <span className="flex-1 shrink min-w-[240px]">
-                      {item.text}
-                    </span>
+                    
                   </li>
                 ))}
               </ul>
