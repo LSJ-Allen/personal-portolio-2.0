@@ -27,8 +27,8 @@ const MobileNavigation = () => {
   const contactItems = [
     {
       icon: "./images/email-icon.png",
-      text: "lsj.liu@mail.utoronto.ca",
-      link: "lsj.liu@mail.utoronto.ca"
+      text: "allenshijialiu@gmail.com",
+      link: "allenshijialiu@gmail.com"
     },
     {
       icon: "./images/linkedin-icon.png",

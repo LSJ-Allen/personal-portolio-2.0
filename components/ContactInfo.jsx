@@ -23,7 +23,7 @@ const ContactInfo = () => (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <ContactItem src="./images/email-icon.png" alt="Email Icon">
-          lsj.liu@mail.utoronto.ca
+          allenshijialiu@gmail.com
         </ContactItem>
         <Link href="https://www.linkedin.com/in/shijia-liu123/" target="_blank" rel="noopener noreferrer" className="flex justify-center">
           <ContactItem src="./images/linkedin-icon.png" alt="LinkedIn icon">

@@ -9,7 +9,7 @@ const contactData = [
   {
     icon: './images/email-icon.png',
     title: 'Email',
-    content: 'lsj.liu@mail.utoronto.ca',
+    content: 'allenshijialiu@gmail.com',
     isLink: false
   },
   {
