@@ -31,11 +31,6 @@ const MobileNavigation = () => {
       link: "lsj.liu@mail.utoronto.ca"
     },
     {
-      icon: "./images/phone-icon.png",
-      text: "(514)-692-9575",
-      link: "(514)-692-9575"
-    },
-    {
       icon: "./images/linkedin-icon.png",
       text: "LinkedIn",
       link: "https://www.linkedin.com/in/shijia-liu123/"
